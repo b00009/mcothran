@@ -1,11 +1,12 @@
 html {
-    background-color: #E1DFD3;
+    background-color: black
+    ;
 }
 body {
     font-family: "Lucida Grande", "Arial", sans-serif;
     margin: 1.5em auto;
     padding: 1.5em;
-    background-color: white;
+    background-color: black;
     color: #4D4B39;
     max-width: 35em;
     border: 0.75em solid #A6A59C;
