@@ -9,7 +9,7 @@
 	var MainChar = "Rowen",
 		magickLevel = 10,
 		magickItems = ["amulet!", "black flame candle!", "broom!", "birch wand!"],
-		itemSkill = [5, 8, 2, 10] 
+		itemPower = [5, 8, 2, 10] 
 		ready = ("\"I need to gather a few supplies from inside.\" "),
 		notReady = ("I should put on my cloak and hat.")
 		
@@ -122,8 +122,8 @@ var bindles = sortBindle("White","Red","Brown","Black");
 	console.log("Rowen has all the herbs she needs to mix potions and cast spells. Now she needs a few Magick items for her journey.");
 
 //Call Array 
-var itemsCount = countItems(magickItems,itemSkill);
-	console.log("Rowen found " + magickItems.length + " different items.");
+var itemsCount = countItems(magickItems,itemPower);
+	
 	
 	console.log("I am ready to finally venture into the woods and travel to the town of Salem");
 	console.log("Come shadow we will need to move quietly to avoid the witch hunters in the woods.");
